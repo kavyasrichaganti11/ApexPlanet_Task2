@@ -1,0 +1,74 @@
+/* Background settings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  /* Heading at the top */
+  h1 {
+    font-family: 'Georgia, serif';
+    text-align: center;
+    color: rgb(18, 204, 173);
+    font-size: 60px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Full transparent content area */
+  .content {
+    width: 100%;
+    height: calc(100vh - 80px); /* full height minus h1 height */
+    background-color: rgba(27, 27, 27, 0.6); /* translucent white */
+    padding: 30px;
+    min-height: 100vh; /* 👈 This ensures full height */
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  /* Content elements */
+  h2 {
+    color: #4CAF50;
+  }
+  
+  h3{
+    color : rgb(12, 131, 139);
+    font-size: 30px;
+  }
+  p {
+    color: #e0d8d8;
+    font-size: 20px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

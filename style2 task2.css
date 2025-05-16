@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+
+  .grid-item {
+    background-color: #fff;
+    border: 1px solid #ddd; /* Light border for image containers */
+    border-radius: 8px; /* Slightly rounded corners */
+    overflow: hidden; /* Hide overflowed content (useful for rounded corners) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around each image */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; /* Smooth animation for hover effects */
+  }
+  
+  .grid-item img {
+    width: 50%; /* Make the image fill the container */
+    height: 50%; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+  }
+
+  .grid-item:hover {
+    transform: translateY(-5px); /* Lift the item slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  /* Optional: Image description below each image */
+  .grid-item p {
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  /* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    /* On smaller screens, make the grid items take up half the width */
+    .content {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* On mobile screens, display images in a single column */
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+  /* Heading at the top */
+  h1 {
+    font-family: 'Georgia, serif';
+    text-align: center;
+    color: rgb(18, 204, 173);
+    font-size: 60px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Full transparent content area */
+  .content {
+    width: 100%;
+    height: calc(100vh - 80px); /* full height minus h1 height */
+    background-color: rgba(27, 27, 27, 0.6); /* translucent white */
+    padding: 30px;
+    min-height: 100vh; /* 👈 This ensures full height */
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  /* Content elements */
+  h2 {
+    color: #1fd6d6;
+    text-align: center;
+  }
+
+  h3{
+    color: black;
+    text-align: center;
+  }
+  .login-form-section {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+
+
+
+  .todo-section {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+  }
+  
+  .todo-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-section li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #27ae60;
+    cursor: pointer;
+  }
+  
+  
