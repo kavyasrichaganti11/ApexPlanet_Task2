@@ -45,4 +45,4 @@ Enhance HTML and CSS skills while learning JavaScript for DOM manipulation. This
 ---
 
 ## 🔗 Links
-- [LinkedIn Demo Post](https://github.com/kavyasrichaganti11/Task-Video-Demos/blob/main/ApexPlanet%20TASK%202.mp4)
+- [LinkedIn Demo Post](https://www.linkedin.com/posts/kavyasri-chaganti-005a85317_task2-webdevelopment-html-activity-7329043989569912832-HrzT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFBtUcUBx88RMT2ZR7V745DXz2hmkKUi90g)
